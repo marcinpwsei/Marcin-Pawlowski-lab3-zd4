@@ -11,7 +11,7 @@ namespace Zad4.Models
     {
         public int Id { get; set; }
         public string ProductName { get; set; }
-        [DataType(DataType.Date)] //we need Date only
+        [DataType(DataType.Date)] 
         public DateTime ValidToDate { get; set; }
         public decimal Weight { get; set; }
         public string LockerName { get; set; }
